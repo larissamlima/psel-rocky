@@ -1,0 +1,296 @@
+/*.navbar-nav li{
+    list-style: none;
+    display: inline-block;
+}*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar-nav {
+    background-image: linear-gradient(to right, rgb(104, 104, 235) , rgb(238, 138, 155));
+    display: flex;
+    list-style-type: none;
+    width: 70%;
+    float: right;
+    position: relative;
+    right: 15%;
+    justify-content: space-around;
+    border-radius: 0 0 5px 5px;
+    position: fixed;
+    z-index: 1;
+  }
+
+.navbar-nav li{
+    padding: 1%;
+    align-items: center;
+
+}
+
+.navbar-nav a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 1.5vw;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.navbar-nav li:hover{
+    background: rgb(210, 146, 240);
+
+}
+/*** inicio ***/
+
+#inicio{
+    height: 100vh;
+
+}
+
+.bg-inicio{
+    width: 100%;
+    height: 100vh;
+    opacity: 0.4;
+}
+
+.boas-vindas{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    width: 70%;
+    word-wrap: break-word;
+
+}
+
+.titulo-bv{
+    font-size: 5vw;
+    text-align: center;
+    position: relative;
+    color: white;
+    text-shadow: 3px 3px rgb(107, 0, 93);
+    width: 70%;
+    left: 15%;
+
+}
+
+
+/*** sobre ***/
+
+#sobre{
+    height: 100vh;
+    position: relative;
+
+}
+
+.bg-sobre{
+    width: 50%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.quem-somos{
+    font-family: 'Roboto', sans-serif;
+    width: 25%;
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    text-align: justify;
+}
+
+.nosso-processo{
+    font-family: 'Roboto', sans-serif;
+    width: 45%;
+    position: absolute;
+    left: 50%;
+    top: 13%;
+    text-align: justify;
+}
+
+/*** vagas ***/
+
+#vagas{
+    background-image: linear-gradient(rgb(230, 244, 253), rgb(200, 199, 250) );
+    height: 100vh;
+    width: 100%;
+}
+
+
+.titulo-vagas{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 12%;
+    text-align: center;
+    color: rgb(62, 104, 240);
+    text-shadow: 1px 2px rgb(0, 0, 0);
+    opacity: 0.7;
+    font-size: 2.5vw;
+}
+
+.tabela-vagas {
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    position: relative;
+    left: 10%;
+    top: 20%;
+}
+
+.tabela-titulos{
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+
+.tabela-vagas td{
+    padding-top: 2%;
+}
+
+/*** inscrições ***/
+
+#incricoes{
+    height: 100vh;
+}
+
+.inscricoes{
+    position: relative;
+    width: 100%;
+    
+}
+
+.bg-inscricoes{
+    width: 100%;
+    height: 100vh;
+    opacity: 0.7;
+}
+
+.form-inscricoes{
+    background-color: black;
+    width: 30%;
+    height: 85vh;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+
+
+.titulo-inscricoes{
+    position: absolute;
+    top: 7%;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.quadro-inscricoes ::placeholder,
+button {
+    text-transform: uppercase;
+}
+
+.quadro-inscricoes .nome {
+    position: absolute;
+    top: 23%;
+    left: 7%;
+    background: black;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    width: 86%;
+    font-size: 1.2vw;
+}
+
+.quadro-inscricoes .email {
+    position: absolute;
+    top: 36.9%;
+    left: 7%;
+    background: black;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    width: 86%;
+    font-size: 1.2vw;
+}
+
+#inscricoes input[type='file'] {
+    display: none;
+}
+
+#inscricoes label {
+    position: absolute;
+    top: 75.9%;
+    left: 20%;
+    background: black;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    width: 6.25%‬;
+    height: 3.5%;
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    padding-bottom: 0.5%;
+}
+
+.quadro-inscricoes .enviar {
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    background-color: black;
+    border: 1px solid #fff;
+    color: #FFFFFF;
+    width: 20%;
+    height: 5%;
+    font-size: 1vw;
+}
+
+.quadro-inscricoes .vaga{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    background-color: black;
+    border: 1px solid #fff;
+    color: #FFFFFF;
+    width: 50%;
+    height: 5%;
+    font-size: 1vw;
+}
+
+/*** contato ***/
+
+#contato{
+    height: 50vh;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(200, 199, 250) );
+}
+
+#contato h2{
+    position: relative;
+    top: 10%;
+    left: 3%;
+    width: 30%;
+
+}
+
+#contato p{
+    position: relative;
+    top: 20%;
+    left: 3%;
+    width: 35%;
+
+}
+
+.localizacao{
+    position: absolute;
+    width: 50%;
+    height: 50.5vh;
+    float: right;
+    bottom: 0;
+    right: 0;
+}
